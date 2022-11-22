@@ -34,3 +34,15 @@
 .Footer {
   text-align: center;
 }
+
+.Home, .Login {
+  width: 400px;
+  margin: 50px auto;
+}
+
+.Login {
+  text-align: center;
+  input {
+    width: 100%;
+  }
+}
