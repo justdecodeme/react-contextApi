@@ -18,7 +18,7 @@ function Login() {
     <br />
     <button
       onClick={() => login(form.username)}
-      disabled={form.username === '' && form.password === ''}>
+      disabled={form.username === '' || form.password === ''}>
       Login
     </button>
   </form>;
